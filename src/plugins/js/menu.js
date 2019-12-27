@@ -1,5 +1,6 @@
 /* global jQuery */
 /* global document */
+import jQuery from 'jquery';
 
 jQuery(function () {
   'use strict';

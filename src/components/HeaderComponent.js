@@ -1,5 +1,12 @@
 import React from 'react';
 
+import Image1 from '../images/logo-grey.png';
+import Image2 from '../images/blog/featured-news.jpg';
+import Image3 from '../images/blog/latest-post-1.jpg';
+import Image4 from '../images/blog/latest-post-2.jpg';
+import Image5 from '../images/blog/latest-post-3.jpg';
+
+
 const HeaderComponent = () => {
     return (
         <header id="header" class="header">
@@ -8,7 +15,7 @@ const HeaderComponent = () => {
             {/* <!-- MOBILE HEADER --> */}
             <div class="wsmobileheader clearfix">
                 <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-                <span class="smllogo"><img src="images/logo-grey.png" width="180" height="40" alt="mobile-logo"/></span>
+                <span class="smllogo"><img src={Image1} width="180" height="40" alt="mobile-logo"/></span>
                 <a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
             </div>
 
@@ -44,7 +51,7 @@ const HeaderComponent = () => {
                     {/* <!-- LOGO IMAGE -->
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 80 pixels) --> */}
                     <div class="desktoplogo">
-                        <a href="#hero-1"><img src="images/logo-grey.png"  width="180" height="40" alt="header-logo" /></a>
+                        <a href="#hero-1"><img src={Image1}  width="180" height="40" alt="header-logo" /></a>
                     </div>
 
                     {/* <!-- MAIN MENU --> */}
@@ -182,7 +189,7 @@ const HeaderComponent = () => {
                                                 <h3 class="title">Featured News:</h3>
 
                                                 {/* <!-- Image --> */}
-                                                <div class="fluid-width-video-wrapper"><img src="images/blog/featured-news.jpg" alt="featured-news" /></div>
+                                                <div class="fluid-width-video-wrapper"><img src={Image2} alt="featured-news" /></div>
 
                                                 {/* <!-- Text --> */}
                                                 <h5 class="h5-xs"><a href="#">5 Benefits of integrative medicine</a></h5>
@@ -207,7 +214,7 @@ const HeaderComponent = () => {
                                                     <li class="clearfix d-flex align-items-center">
 
                                                         {/* <!-- Image --> */}
-                                                        <img class="img-fluid" src="images/blog/latest-post-1.jpg" alt="blog-post-preview" />
+                                                        <img class="img-fluid" src={Image3} alt="blog-post-preview" />
 
                                                         {/* <!-- Text --> */}
                                                         <div class="post-summary">
@@ -221,7 +228,7 @@ const HeaderComponent = () => {
                                                     <li class="clearfix d-flex align-items-center">
 
                                                         {/* <!-- Image --> */}
-                                                        <img class="img-fluid" src="images/blog/latest-post-2.jpg" alt="blog-post-preview" />
+                                                        <img class="img-fluid" src={Image4} alt="blog-post-preview" />
 
                                                         {/* <!-- Text --> */}
                                                         <div class="post-summary">
@@ -235,7 +242,7 @@ const HeaderComponent = () => {
                                                     <li class="clearfix d-flex align-items-center">
 
                                                         {/* <!-- Image --> */}
-                                                        <img class="img-fluid" src="images/blog/latest-post-3.jpg" alt="blog-post-preview" />
+                                                        <img class="img-fluid" src={Image5} alt="blog-post-preview" />
 
                                                         {/* <!-- Text --> */}
                                                         <div class="post-summary">

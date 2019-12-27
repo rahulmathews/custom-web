@@ -12,7 +12,7 @@ import HeaderComponent from '../components/HeaderComponent';
 // import '../plugins/js/jquery.easing.js';
 // import '../plugins/js/jquery.appear.js';
 // import '../plugins/js/jquery.stellar.min.js';
-// import '../plugins/js/menu.js';
+require('../plugins/js/menu.js');
 // import '../plugins/js/sticky.js';
 // import '../plugins/js/jquery.scrollto.js';
 // import '../plugins/js/materialize.js';
@@ -44,9 +44,9 @@ class App extends Component {
 
     return (
       <React.Fragment>
-        <div id="loader-wrapper">
+        {/* <div id="loader-wrapper">
           <div id="loader"><div class="loader-inner"></div></div>
-        </div>
+        </div> */}
 
         <div id="page" class="page">
           <HeaderComponent />
