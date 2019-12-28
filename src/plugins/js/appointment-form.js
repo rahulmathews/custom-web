@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 // JavaScript Document
 $(document).ready(function() {
 

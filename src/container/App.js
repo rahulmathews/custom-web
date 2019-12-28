@@ -12,7 +12,7 @@ import HeaderComponent from '../components/HeaderComponent';
 // import '../plugins/js/jquery.easing.js';
 // import '../plugins/js/jquery.appear.js';
 // import '../plugins/js/jquery.stellar.min.js';
-require('../plugins/js/menu.js');
+// require('../plugins/js/menu.js');
 // import '../plugins/js/sticky.js';
 // import '../plugins/js/jquery.scrollto.js';
 // import '../plugins/js/materialize.js';
@@ -31,15 +31,6 @@ require('../plugins/js/menu.js');
 
 class App extends Component {
   
-  componentDidMount () {
-    const script = document.createElement("script");
-
-    script.src = "src/plugins/js/jquery.datetimepicker.full.js";
-    script.async = true;
-
-    document.body.appendChild(script);
-  }
-  
   render(){
 
     return (
@@ -48,7 +39,7 @@ class App extends Component {
           <div id="loader"><div class="loader-inner"></div></div>
         </div> */}
 
-        <div id="page" class="page">
+        <div id="page" className="page">
           <HeaderComponent />
         </div>
       </React.Fragment>
