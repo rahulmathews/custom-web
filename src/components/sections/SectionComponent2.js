@@ -1,39 +1,91 @@
 import React from 'react';
 
-// import Image from '../../img/'
 
 const SectionComponent2 = () => {
     return (
-        <section id="section-2" className="scrollsections home-section">
-            <div className="home-section-background hide-sm" style={{backgroundImage:"url(" + require('../../img/Hugeinc_BrashHugeinc_1920x1080_BRASH-a.png') + ")"}}>
-                <div aria-hidden="false" className="home-section-background__index" style={{"color":"#FFFFFF"}}>
-                    01
-                    .<span className="home-section-background__line" style={{"borderColor":"#FFFFFF"}}></span>
-                </div>
-            </div>
-            <div className="home-section-background hide-md-up" style={{backgroundImage:"url(" + require('../../img/Hugeinc_BrashHugeinc.com_750x1334_BRASH-a.png') + ")"}}>
-                <div aria-hidden="false" className="home-section-background__index" style={{"color":"#FFFFFF"}}>
-                    01
-                    .<span className="home-section-background__line" style={{"borderColor":"#FFFFFF"}}></span>
-                </div>
-            </div>
-            <div className="home-section__wrapper">
-                <div className="home-section-details">
-                    <h5 className="home-section-details__eyebrow" style={{"color":"#FFFFFF"}}>Work.</h5>
-                    <div className="home-section-details__container">
-                        <h2 className="home-section-details__title">
-                            <a href="https://magenta.as/the-ar-infused-caf%C3%A9-of-the-future-efcdad5f427d" rel="noopener noreferrer" target="_blank" style={{"color":"#FFFFFF"}}>Connected coffee.</a>
-                        </h2>
-                        <div className="home-section-details__subtitle">
-                            <div className="home-section-details__subtitle-wrapper">
-                                <hr className="home-section-details__separator" style={{"color":"#FFFFFF"}}/>
-                                <a href="https://magenta.as/the-ar-infused-caf%C3%A9-of-the-future-efcdad5f427d" rel="noopener noreferrer" target="_blank" style={{"color":"#FFFFFF"}}>Huge partnered with BRASH Coffee to open a cafe and interactive R &amp;D development lab in Midtown Atlanta.</a>
-                            </div>
+        <section id="about-1" className="about-section division">
+            <div className="container">
+                <div className="row d-flex align-items-center">
+
+
+                    <div id="abox-1" className="col-md-6 col-lg-3">
+                        <div className="abox-1 white-color">
+
+                            <h5 className="h5-md">Working Time</h5>
+
+                            <table className="table white-color">
+                                <tbody>
+                                    <tr>
+                                        <td>Mon – Wed</td>
+                                        <td> - </td>
+                                        <td className="text-right">9:00 AM - 7:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td> - </td>
+                                        <td className="text-right">9:00 AM - 6:30 PM</td>
+                                    </tr>
+                                        <tr>
+                                        <td>Friday</td>
+                                        <td> - </td>
+                                        <td className="text-right">9:00 AM - 6:00 PM</td>
+                                    </tr>
+                                    <tr className="last-tr">
+                                        <td>Sun - Sun</td>
+                                        <td>-</td>
+                                        <td className="text-right">CLOSED</td>
+                                        </tr>
+                                    </tbody>
+                            </table>
+
                         </div>
                     </div>
-                </div>
-                <div className="home-section-media-wrapper"></div>
-            </div>
+
+
+                    <div id="abox-2" className="col-md-6 col-lg-3">
+                        <div className="abox-1 white-color">
+
+                            <h5 className="h5-md">Doctors Timetable</h5>
+
+                            <p>An magnis nulla dolor at sapien augue erat iaculis purus tempor magna ipsum and
+                                vitae a purus primis ipsum magna ipsum
+                            </p>
+
+                            <a href="timetable.html" className="btn btn-sm btn-tra-white mt-25">View Timetable</a>
+
+                        </div>
+                    </div>
+
+
+                    <div id="abox-3" className="col-md-6 col-lg-3">
+                        <div className="abox-1 white-color">
+
+                            <h5 className="h5-md">Appointments</h5>
+
+                            <p>An magnis nulla dolor at sapien augue erat iaculis purus tempor magna ipsum and
+                                vitae a purus primis ipsum magna ipsum
+                            </p>
+
+                            <a href="#" className="btn btn-sm btn-tra-white mt-25">Make an Apointment</a>
+
+                        </div>
+                    </div>
+
+
+                    <div id="abox-4" className="col-md-6 col-lg-3">
+                        <div className="abox-1 white-color">
+
+                            <h5 className="h5-md">Emergency Cases</h5>
+
+                            <h5 className="h5-lg emergency-call"><i className="fas fa-phone"></i> 1-800-123-4560</h5>
+                            <p className="mt-20">An magnis nulla dolor sapien augue erat iaculis purus tempor magna ipsum and
+                                vitae a purus primis ipsum magna ipsum
+                            </p>
+
+                        </div>
+                    </div>
+                </div> 
+            </div>	   	
         </section>
     )
 }

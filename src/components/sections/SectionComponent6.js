@@ -1,42 +1,35 @@
 import React from 'react';
 
-// import Image from '../../img/'
 
 const SectionComponent6 = () => {
     return (
-        <section id="section-6" className="scrollsections home-section">
-            <div className="home-section-background hide-sm" style={{backgroundImage:"url(" + require('../../img/andriod-homepage.jpg') + ")"}}>
-                <div aria-hidden="false" className="home-section-background__index" style={{color:"#000000"}}>
-                    05
-                    .<span className="home-section-background__line" style={{borderColor:"#000000"}}></span>
-                </div>
-            </div>
-            <div className="home-section-background hide-md-up" style={{backgroundImage:"url(" +require('../../img/android-homepage-mobile-2.jpg')}}>
-                <div aria-hidden="false" className="home-section-background__index" style={{color:"#000000"}}>
-                    05
-                    .<span className="home-section-background__line" style={{borderColor:"#000000"}}></span>
-                </div>
-            </div>
-            <div className="home-section__wrapper">
-                <div className="home-section-details">
-                    <h5 className="home-section-details__eyebrow" style={{color:"#000000"
-                    }}>Work.</h5>
-                    <div className="home-section-details__container">
-                        <h2 className="home-section-details__title">
-                            <a style={{color:"#000000"}} href="/work/android">
-                                Hello <br />Android.
-                            </a>
-                        </h2>
-                        <div className="home-section-details__subtitle">
-                            <div className="home-section-details__subtitle-wrapper">
-                                <hr className="home-section-details__separator" style={{color:"#000000"}}/>
-                                <a style={{color:"#000000"}} href="/work/android">A brand refresh for the world’s most popular operating system.</a>
-                            </div>
+        <section id="banner-7" className="bg-fixed banner-section division">
+            <div className="container white-color">
+                <div className="row d-flex align-items-center">
+
+
+                    
+                    <div className="col-md-8 col-lg-6 col-xl-5">
+                        <div className="banner-txt wow fadeInUp" data-wow-delay="0.4s">
+
+                            
+                            <h2 className="h2-xs">Highest Quality Medical Treatment</h2>
+                            
+                            
+                            <p>Egestas magna egestas magna ipsum vitae purus ipsum primis in cubilia laoreet augue
+                            egestas suscipit lectus mauris a lectus laoreet gestas neque undo luctus feugiat augue
+                            suscipit
+                            </p>
+
+                            
+                            <a href="#" className="btn btn-blue tra-white-hover mt-20">Free Consultation</a>
+
                         </div>
-                    </div>
-                </div>
-                <div className="home-section-media-wrapper"></div>
-            </div>
+                    </div>	
+
+
+                </div>      	
+            </div>	    		
         </section>
     )
 }

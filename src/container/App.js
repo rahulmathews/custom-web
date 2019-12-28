@@ -4,30 +4,19 @@ import React, {Component} from 'react';
 
 import HeaderComponent from '../components/HeaderComponent';
 
+import SectionComponent1 from '../components/sections/SectionComponent1';
+import SectionComponent2 from '../components/sections/SectionComponent2';
+import SectionComponent3 from '../components/sections/SectionComponent3';
+import SectionComponent4 from '../components/sections/SectionComponent4';
+import SectionComponent5 from '../components/sections/SectionComponent5';
+import SectionComponent6 from '../components/sections/SectionComponent6';
+import SectionComponent7 from '../components/sections/SectionComponent7';
+import SectionComponent8 from '../components/sections/SectionComponent8';
+import SectionComponent9 from '../components/sections/SectionComponent9';
+import SectionComponent10 from '../components/sections/SectionComponent10';
+import SectionComponent11 from '../components/sections/SectionComponent11';
 
-//Global scripts
-// import '../plugins/js/jquery-3.3.1.min.js';
-// import '../plugins/js/bootstrap.min.js';
-// import '../plugins/js/modernizr.custom.js';
-// import '../plugins/js/jquery.easing.js';
-// import '../plugins/js/jquery.appear.js';
-// import '../plugins/js/jquery.stellar.min.js';
-// require('../plugins/js/menu.js');
-// import '../plugins/js/sticky.js';
-// import '../plugins/js/jquery.scrollto.js';
-// import '../plugins/js/materialize.js';
-// import '../plugins/js/owl.carousel.min.js';
-// import '../plugins/js/jquery.magnific-popup.min.js';
-// import '../plugins/js/imagesloaded.pkgd.min.js';
-// import '../plugins/js/isotope.pkgd.min.js';
-// import '../plugins/js/hero-form.js';
-// import '../plugins/js/contact-form.js';
-// import '../plugins/js/comment-form.js';
-// import '../plugins/js/appointment-form.js';
-// import '../plugins/js/jquery.datetimepicker.full.js';
-// import '../plugins/js/jquery.validate.min.js';
-// import '../plugins/js/jquery.ajaxchimp.min.js';
-// import '../plugins/js/wow.js';
+import FooterComponent from '../components/FooterComponent';
 
 class App extends Component {
   
@@ -35,12 +24,26 @@ class App extends Component {
 
     return (
       <React.Fragment>
-        {/* <div id="loader-wrapper">
-          <div id="loader"><div class="loader-inner"></div></div>
-        </div> */}
+        <div id="loader-wrapper">
+          <div id="loader"><div className="loader-inner"></div></div>
+        </div>
 
         <div id="page" className="page">
           <HeaderComponent />
+
+          <SectionComponent1 />
+          <SectionComponent2 />
+          <SectionComponent3 />
+          <SectionComponent4 />
+          <SectionComponent5 />
+          <SectionComponent6 />
+          <SectionComponent7 />
+          <SectionComponent8 />
+          <SectionComponent9 />
+          <SectionComponent10 />
+          <SectionComponent11 />
+
+          <FooterComponent />
         </div>
       </React.Fragment>
     )

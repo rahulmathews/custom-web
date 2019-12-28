@@ -1,38 +1,49 @@
 import React from 'react';
 
-// import Image from '../../img/'
+import Image1 from '../../images/image-03.png';
+import Image2 from '../../images/signature.png';
 
 const SectionComponent3 = () => {
     return (
-        <section id="section-3" className="scrollsections home-section">
-            <div className="home-section-background hide-sm" style={{backgroundImage: "url(" + require('../../img/Hugeinc_JeepHugeinc_1920x1080_Jeep-a.png') + ")"}}>
-                <div aria-hidden="false" className="home-section-background__index" style={{"color":"#FFFFFF"}}>
-                    02
-                    .<span className="home-section-background__line" style={{"borderColor":"#FFFFFF"}}></span>
-                </div>
-            </div>
-            <div className="home-section-background hide-md-up" style={{backgroundImage:"url(" + require('../../img/Hugeinc_JeepHugeinc.com_750x1334_Jeep.png') + ")"}}>
-                <div aria-hidden="false" className="home-section-background__index" style={{"color":"#FFFFFF"}}>
-                    02
-                    .<span className="home-section-background__line" style={{"borderColor":"#FFFFFF"}}></span>
-                </div>
-            </div>
-            <div className="home-section__wrapper">
-                <div className="home-section-details">
-                    <h5 className="home-section-details__eyebrow" style={{"color":"#FFFFFF"}}>Work. </h5>
-                    <div className="home-section-details__container">
-                        <h2 className="home-section-details__title">
-                            <a href="/" rel="noopener noreferrer" target="_blank" style={{"color":"#FFFFFF"}}>This is Not Jeep. </a>
-                        </h2>
-                        <div className="home-section-details__subtitle">
-                            <div className="home-section-details__subtitle-wrapper">
-                                <hr className="home-section-details__separator" style={{"color":"#FFFFFF"}}/>
-                                <a href="/" rel="noopener noreferrer" target="_blank" style={{"color":"#FFFFFF"}}>Jeep has released the #ThisIsNotJeep social campaign in partnership with Huge Detroit. </a>
-                            </div>
+        <section id="about-5" className="pt-100 about-section division">
+            <div className="container">
+                <div className="row d-flex align-items-center">
+
+
+                    <div className="col-lg-6">
+                        <div className="about-img text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <img className="img-fluid" src={Image1} alt="about-image" />
                         </div>
                     </div>
+
+
+                    <div className="col-lg-6">
+                        <div className="txt-block pc-30 wow fadeInUp" data-wow-delay="0.4s">
+
+                            <span className="section-id blue-color">Welcome to MedService</span>
+
+                            <h3 className="h3-md steelblue-color">Complete Medical Solutions in One Place</h3>
+
+                            <p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat
+                                dolor lacinia cubilia curae integer congue leo metus, eu mollislorem primis in orci integer
+                                metus mollis faucibus. An enim nullam tempor sapien gravida donec pretium and ipsum porta
+                                justo integer at velna vitae auctor integer congue
+                            </p>
+
+                            <div className="singnature mt-35">
+
+                                <p className="p-small mb-15">Randon Pexon, Head of Clinic</p>
+
+                                
+                                <img className="img-fluid" src={Image2} width="200" height="34" alt="signature-image" />	
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
                 </div>
-                <div className="home-section-media-wrapper"></div>
             </div>
         </section>
     )
