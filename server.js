@@ -8,10 +8,10 @@ const app = express();
 app.use(compression());
 
 let staticPath = path.join(__dirname, process.env.ABSOLUTE_STATIC_PATH)
-app.use('/static', express.static(staticPath));
+app.use( express.static(staticPath));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, process.env.ABSOLUTE_STATIC_PATH, '../index.html'));
+  res.sendFile(path.join(__dirname, process.env.ABSOLUTE_STATIC_PATH, 'index.html'));
 });
 
 const PORT = process.env.PORT || 3000;
